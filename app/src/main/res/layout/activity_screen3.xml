@@ -89,7 +89,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:scrollbars="vertical"
-                android:scrollbarSize="10dp">
+                android:scrollbarSize="3dp"
+                android:scrollbarStyle="insideOverlay">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -102,38 +103,52 @@
                         android:orientation="horizontal">
                         <RelativeLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:id="@+id/math">
+
                             <ImageView
-                                android:layout_width="150dp"
-                                android:layout_height="150dp"
-                                android:src="@drawable/asset_math"/>
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:src="@drawable/asset_math" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_marginTop="155dp"
+                                android:layout_marginBottom="10dp"
+                                android:background="#6d3f9a"
+                                android:fontFamily="@font/fredoka_one_regular"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
                                 android:text="Math"
                                 android:textColor="@color/white"
-                                android:fontFamily="@font/fredoka_one_regular"
-                                android:layout_marginBottom="10dp"
-                                android:layout_marginTop="115dp"
-                                android:layout_centerHorizontal="true" />
+                                android:textSize="20dp" />
                         </RelativeLayout>
 
                         <RelativeLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:id="@+id/literacy">
+
                             <ImageView
-                                android:layout_width="150dp"
-                                android:layout_height="150dp"
-                                android:src="@drawable/asset_literacy"/>
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:src="@drawable/asset_literacy" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Literacy"
-                                android:textColor="@color/white"
-                                android:fontFamily="@font/fredoka_one_regular"
+                                android:layout_centerHorizontal="true"
+                                android:background="#6d3f9a"
+                                android:paddingRight="10dp"
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="155dp"
                                 android:layout_marginBottom="10dp"
-                                android:layout_marginTop="115dp"
-                                android:layout_centerHorizontal="true" />
+                                android:fontFamily="@font/fredoka_one_regular"
+                                android:text="Literacy"
+                                android:textSize="20dp"
+                                android:textColor="@color/white" />
                         </RelativeLayout>
                     </LinearLayout>
 
@@ -143,40 +158,52 @@
                         android:orientation="horizontal">
                         <RelativeLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:id="@+id/shapes">
+
                             <ImageView
-                                android:layout_width="150dp"
-                                android:layout_height="150dp"
-                                android:src="@drawable/asset_shapes"/>
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:src="@drawable/asset_shapes" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Shapes"
-                                android:textColor="@color/white"
-                                android:fontFamily="@font/fredoka_one_regular"
+                                android:layout_centerHorizontal="true"
+                                android:background="#6d3f9a"
+                                android:paddingRight="10dp"
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="155dp"
                                 android:layout_marginBottom="10dp"
-                                android:layout_marginTop="115dp"
-                                android:layout_centerHorizontal="true" />
+                                android:fontFamily="@font/fredoka_one_regular"
+                                android:text="Shapes"
+                                android:textSize="20dp"
+                                android:textColor="@color/white" />
                         </RelativeLayout>
 
                         <RelativeLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:id="@+id/drawing">
 
                             <ImageView
-                                android:layout_width="150dp"
-                                android:layout_height="150dp"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
                                 android:src="@drawable/asset_drawing" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Drawing"
-                                android:textColor="@color/white"
-                                android:fontFamily="@font/fredoka_one_regular"
+                                android:layout_centerHorizontal="true"
+                                android:background="#6d3f9a"
+                                android:paddingRight="10dp"
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="155dp"
                                 android:layout_marginBottom="10dp"
-                                android:layout_marginTop="115dp"
-                                android:layout_centerHorizontal="true" />
+                                android:fontFamily="@font/fredoka_one_regular"
+                                android:text="Drawing"
+                                android:textSize="20dp"
+                                android:textColor="@color/white" />
                         </RelativeLayout>
                     </LinearLayout>
 
@@ -186,38 +213,51 @@
                         android:orientation="horizontal">
                         <RelativeLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:id="@+id/coding">
+
                             <ImageView
-                                android:layout_width="150dp"
-                                android:layout_height="150dp"
-                                android:src="@drawable/asset_coding"/>
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
+                                android:src="@drawable/asset_coding" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Coding"
-                                android:textColor="@color/white"
-                                android:fontFamily="@font/fredoka_one_regular"
+                                android:layout_centerHorizontal="true"
+                                android:background="#6d3f9a"
+                                android:paddingRight="10dp"
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="155dp"
                                 android:layout_marginBottom="10dp"
-                                android:layout_marginTop="115dp"
-                                android:layout_centerHorizontal="true" />
+                                android:fontFamily="@font/fredoka_one_regular"
+                                android:text="Coding"
+                                android:textSize="20dp"
+                                android:textColor="@color/white" />
                         </RelativeLayout>
 
                         <RelativeLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
+                            android:layout_height="wrap_content"
+                            android:id="@+id/rhymes">
                             <ImageView
-                                android:layout_width="150dp"
-                                android:layout_height="150dp"
+                                android:layout_width="200dp"
+                                android:layout_height="200dp"
                                 android:src="@drawable/asset_rhymes"/>
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Rhymes"
-                                android:textColor="@color/white"
-                                android:fontFamily="@font/fredoka_one_regular"
+                                android:layout_centerHorizontal="true"
+                                android:background="#6d3f9a"
+                                android:paddingRight="10dp"
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="155dp"
                                 android:layout_marginBottom="10dp"
-                                android:layout_marginTop="115dp"
-                                android:layout_centerHorizontal="true" />
+                                android:fontFamily="@font/fredoka_one_regular"
+                                android:text="Rhymes"
+                                android:textSize="20dp"
+                                android:textColor="@color/white" />
                         </RelativeLayout>
                     </LinearLayout>
 

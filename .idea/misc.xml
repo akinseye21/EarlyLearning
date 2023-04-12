@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/drawable/asset_19.xml" value="0.1405" />
         <entry key="app/src/main/res/drawable/asset_20.xml" value="0.177" />
         <entry key="app/src/main/res/drawable/asset_bg.xml" value="0.211" />
+        <entry key="app/src/main/res/drawable/asset_math.xml" value="0.1745" />
         <entry key="app/src/main/res/drawable/asset_zainab.xml" value="0.1405" />
         <entry key="app/src/main/res/drawable/ayo_card.xml" value="0.1405" />
         <entry key="app/src/main/res/drawable/background_gradient.xml" value="0.211" />
@@ -25,6 +26,7 @@
         <entry key="app/src/main/res/drawable/zainab_card.xml" value="0.1405" />
         <entry key="app/src/main/res/layout/activity_landing_page.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21014492753623187" />
+        <entry key="app/src/main/res/layout/activity_math_screen.xml" value="0.15885416666666666" />
         <entry key="app/src/main/res/layout/activity_screen1.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_screen2.xml" value="0.20923913043478262" />
         <entry key="app/src/main/res/layout/activity_screen3.xml" value="0.223731884057971" />
