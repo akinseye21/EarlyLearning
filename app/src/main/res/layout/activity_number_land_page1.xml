@@ -4,83 +4,103 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/math_bg"
-    tools:context=".Maths.MathScreen">
+    tools:context=".Maths.NumberLand.NumberLandPage1">
 
     <ImageView
+        android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/back"
         android:padding="20dp"
-        android:id="@+id/back" />
+        android:src="@drawable/back" />
 
     <TextView
+        android:id="@+id/math"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MATH"
-        android:textSize="30dp"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/white"
         android:fontFamily="@font/fredoka_one_regular"
-        android:paddingTop="20dp"/>
+        android:paddingTop="20dp"
+        android:text="MATH"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
 
-    <HorizontalScrollView
+    <TextView
+        android:id="@+id/numberland"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp">
-            <ImageView
-                android:layout_width="250dp"
-                android:layout_height="250dp"
-                android:src="@drawable/number_land"
-                android:padding="10dp"/>
-            <ImageView
-                android:layout_width="250dp"
-                android:layout_height="250dp"
-                android:src="@drawable/number_rod"
-                android:padding="10dp"/>
-            <ImageView
-                android:layout_width="250dp"
-                android:layout_height="250dp"
-                android:src="@drawable/sandpaper_numerals"
-                android:padding="10dp"/>
-            <ImageView
-                android:layout_width="250dp"
-                android:layout_height="250dp"
-                android:src="@drawable/spindle_box"
-                android:padding="10dp"/>
-            <ImageView
-                android:layout_width="250dp"
-                android:layout_height="250dp"
-                android:src="@drawable/count_the_duck"
-                android:padding="10dp"/>
-
-
-        </LinearLayout>
-
-    </HorizontalScrollView>
+        android:layout_below="@+id/math"
+        android:background="#d10E2B5F"
+        android:fontFamily="@font/fredoka_one_regular"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="NUMBERLAND"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="1dp"
-        android:layout_alignParentBottom="true">
+        android:layout_above="@+id/bottombar"
+        android:layout_below="@+id/numberland"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/number_land" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_centerInParent="true">
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/image"
+            android:orientation="vertical"
+            android:padding="5dp">
 
-            <RelativeLayout
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Discover number 1 to 9, each in its very own enchanting setting. The 9 scenes present a number with objects that the child counts by tapping on the screen. A friendly voice counts along too. Look for the special hidden surprise in each."
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="1dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <RelativeLayout
                 android:id="@+id/math"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp">
 
@@ -105,9 +125,9 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/literacy"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/literacy"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp">
 
@@ -115,7 +135,7 @@
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/asset_literacy"/>
+                    android:src="@drawable/asset_literacy" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -133,9 +153,9 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/shapes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/shapes"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp">
 
@@ -160,9 +180,9 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/drawing"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/drawing"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp">
 
@@ -187,9 +207,9 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/coding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/coding"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp">
 
@@ -214,9 +234,9 @@
             </RelativeLayout>
 
             <RelativeLayout
+                android:id="@+id/rhymes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/rhymes"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp">
 
@@ -243,7 +263,5 @@
         </LinearLayout>
 
     </RelativeLayout>
-
-
 
 </RelativeLayout>

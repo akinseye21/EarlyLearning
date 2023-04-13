@@ -1,12 +1,14 @@
-package ng.com.earlylearning;
-
-import androidx.appcompat.app.AppCompatActivity;
+package ng.com.earlylearning.LandingPages;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.RelativeLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import ng.com.earlylearning.R;
 
 public class Screen1 extends AppCompatActivity {
 

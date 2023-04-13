@@ -24,9 +24,11 @@
         <entry key="app/src/main/res/drawable/screen2_gradient_chisom.xml" value="0.21" />
         <entry key="app/src/main/res/drawable/screen2_gradient_zainab.xml" value="0.1625" />
         <entry key="app/src/main/res/drawable/zainab_card.xml" value="0.1405" />
-        <entry key="app/src/main/res/layout/activity_landing_page.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_landing_page.xml" value="0.11865942028985507" />
+        <entry key="app/src/main/res/layout/activity_literacy_screen.xml" value="0.18342391304347827" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21014492753623187" />
         <entry key="app/src/main/res/layout/activity_math_screen.xml" value="0.15885416666666666" />
+        <entry key="app/src/main/res/layout/activity_number_land_page1.xml" value="0.18342391304347827" />
         <entry key="app/src/main/res/layout/activity_screen1.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_screen2.xml" value="0.20923913043478262" />
         <entry key="app/src/main/res/layout/activity_screen3.xml" value="0.223731884057971" />

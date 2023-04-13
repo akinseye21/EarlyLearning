@@ -1,12 +1,13 @@
-package ng.com.earlylearning;
-
-import androidx.appcompat.app.AppCompatActivity;
+package ng.com.earlylearning.Maths;
 
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
-import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import ng.com.earlylearning.R;
 
 public class MathScreen extends AppCompatActivity {
 

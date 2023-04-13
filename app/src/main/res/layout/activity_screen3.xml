@@ -7,7 +7,7 @@
     android:background="@drawable/asset_27"
     android:id="@+id/bg"
     android:padding="20dp"
-    tools:context=".Screen3">
+    tools:context=".LandingPages.Screen3">
 
     <RelativeLayout
         android:id="@+id/rel1"
